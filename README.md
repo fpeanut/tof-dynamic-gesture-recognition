@@ -19,3 +19,9 @@
 数据处理<br>
 该步骤将前面录取的原始图像数据采用特定的方式（如滑动串口）生成用于训练集生成的图像数据集，流程如下图。<br>
 ![Image text](https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/dataprocess.jpg)<br>
+注：滑动窗口法使用<br>
+考虑到人类活动在现实中是如何进行的，我们了解到每一个活动都是几个基本的连续运动的组合。通常情况下，一个人的活动可以在练习中持续几秒钟，在一秒钟内，一些基本的动作就可以参与其中。<br>
+1.数据集采集方式:指定某个手势动作在规定时间内做固定的次数手势。<br>
+2.数据集制作方式：<br>
+利用固定宽度滑动窗口在该视频内进行分割，设置滑动窗口步长s，s越小数据集数量越多。（借鉴UCI-HAR数据集原理<br>
+![Image text](https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/slidwin.jpg)<br>
