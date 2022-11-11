@@ -15,3 +15,7 @@
 数据管理<br>
 制定原始采集数据、训练数据集的存放方式。<br>
 ![Image text](https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/datacontrol.jpg)<br>
+<br>
+数据处理<br>
+该步骤将前面录取的原始图像数据采用特定的方式（如滑动串口）生成用于训练集生成的图像数据集，流程如下图。<br>
+![Image text](https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/dataprocess.jpg)<br>
