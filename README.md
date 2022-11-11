@@ -25,3 +25,8 @@
 2.数据集制作方式：<br>
 利用固定宽度滑动窗口在该视频内进行分割，设置滑动窗口步长s，s越小数据集数量越多。（借鉴UCI-HAR数据集原理<br>
 ![Image text](https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/slidwin.jpg)<br>
+特征数据集生成<br>
+该部分是将图像数据集处理成不同网络想要的训练集和验证集。主要分图像训练集和关键点训练集。<br>
+图像训练集生成：直接将数据处理步骤的图像数据集作为训练集即可。<br>
+关键点训练集：需要编写mediapipe关键点代码，将所有样图片转换成21个关键点或者其他关键点相关的融合特征。<br>
+![Image text](https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/datasc.png)<br>
