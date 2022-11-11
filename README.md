@@ -35,3 +35,4 @@
 `训练`<br>
 1.cnn-lstm<br>
 网络结构：![Image text](https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/cnn-lstm.jpg)<br>
+code:https://github.com/fpeanut/tof-dynamic-gesture-recognition/tree/main/2_ModelTrain/2_model%20training/cnn-lstm
