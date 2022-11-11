@@ -31,3 +31,6 @@
 关键点训练集：需要编写mediapipe关键点代码，将所有样图片转换成21个关键点或者其他关键点相关的融合特征。<br>
 ![Image text](https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/datasc.png)<br>
 `注`：mediaipe c++编译，dll生成与运行下载链接：https://pan.baidu.com/s/1ditBJOPpW7ae_RDSL8GnqA  提取码：6fva<br>
+<br>
+`训练`<br>
+1.cnn-lstm
