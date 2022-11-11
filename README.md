@@ -33,4 +33,5 @@
 `注`：mediaipe c++编译，dll生成与运行下载链接：https://pan.baidu.com/s/1ditBJOPpW7ae_RDSL8GnqA  提取码：6fva<br>
 <br>
 `训练`<br>
-1.cnn-lstm
+1.cnn-lstm<br>
+网络结构：![Image text](https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/cnn-lstm.jpg)<br>
