@@ -1,4 +1,4 @@
-# tof-dynamic-gesture-recognition（tof、cnn-lstm、mediapipe-lstm、持续更新。。。）<br>
+# tof动态手势识别（tof、cnn-lstm、mediapipe-lstm、持续更新。。。）<br>
 ------------------------------------------------------动态手势识别流程-------------------------------------------------------------<br>
 1.数据采集<br>
 2.数据管理<br>
