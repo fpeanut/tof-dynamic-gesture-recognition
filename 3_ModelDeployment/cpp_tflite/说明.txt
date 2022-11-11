@@ -1,0 +1,17 @@
+vs2017
+include
+D:\Dlib\tflite2.4.1\include;D:\Dlib\tflite2.4.1\include\flatbuffers;
+D:\Dlib\tflite2.4.1\include\tensorflow;
+D:\Dlib\opencv3.4.2\build\include;
+lib
+D:\Dlib\tflite2.4.1\libs\windows_x64;
+D:\Dlib\opencv3.4.2\build\x64\vc15\lib;
+
+
+opencv_world342_vc15_x64.lib
+flatbuffers.lib
+tensorflowlite.dll.if.lib
+
+tflite2.4下载
+链接：https://pan.baidu.com/s/1VpbBsAhfG6l_4lXgLQ7qWQ 
+提取码：mzxd

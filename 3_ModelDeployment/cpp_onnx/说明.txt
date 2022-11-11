@@ -1,0 +1,11 @@
+vs2017 
+include
+D:\Dlib\opencv4.5.1\opencv\build\include;
+D:\Dlib\opencv4.5.1\opencv\build\include\opencv2;
+D:\Dlib\onnxruntime\onnxruntime-win-x64-1.8.0\include;
+
+lib
+D:\Dlib\opencv4.5.1\opencv\build\x64\vc15\lib;
+D:\Dlib\onnxruntime\onnxruntime-win-x64-1.8.0\lib;
+
+onnxruntime-win-x64-1.8.0官网自行下载。

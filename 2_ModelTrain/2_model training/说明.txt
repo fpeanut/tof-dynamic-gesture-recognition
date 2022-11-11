@@ -1,0 +1,9 @@
+1_dataVerfy.py:查看数据集手势类别占比
+modeltoonnx.py：pytorch模型转onnx
+modeltotflite.py：h5模型转tflite
+cnn-lstm:训练代码
+mediapipe-lstm：训练代码
+
+数据集下载：
+图像训练集：用于cnn-lstm
+关键点训练集：用于mediapipe-lstm
