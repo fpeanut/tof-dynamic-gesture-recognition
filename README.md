@@ -10,4 +10,4 @@
 详解
 数据采集<br>
 根据自己相机sdk的要求自行编写采集软件。采集流程如下：<br>
-![Image text]https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/1668144844199.jpg
+![Image text](https://github.com/fpeanut/tof-dynamic-gesture-recognition/blob/main/img/1668144844199.jpg)
