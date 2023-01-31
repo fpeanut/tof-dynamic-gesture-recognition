@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SelectDataClass</class>
+ <widget class="QWidget" name="SelectDataClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>789</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SelectData</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>6</y>
+     <width>391</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{border:3px solid #242424;}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="rangeSliderWidgetSpace" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>761</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slidmin">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slidmax">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>400</y>
+     <width>20</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>400</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Threshold:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="lowvalue">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>400</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="upvalue">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>400</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>396</x>
+     <y>7</y>
+     <width>381</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>读取数据集</string>
+   </property>
+   <widget class="QToolButton" name="btnPath">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>30</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <pointsize>18</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 18pt &quot;Adobe Arabic&quot;;</string>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Path：</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="TXpath">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>InfoPrint</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="TXefficient">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>331</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>280</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>按钮</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="StartBtn">
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>播放</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="brushBtn">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>擦除</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="endBtn">
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>保存</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="lowUP">
+        <property name="text">
+         <string>low up</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="upUp">
+        <property name="text">
+         <string>upper up</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="lowDown">
+        <property name="text">
+         <string>low down</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="upDown">
+        <property name="text">
+         <string>upper down</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="SelectData.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnPath</sender>
+   <signal>clicked()</signal>
+   <receiver>SelectDataClass</receiver>
+   <slot>btn_ChooseData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>758</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>784</x>
+     <y>67</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>StartBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>SelectDataClass</receiver>
+   <slot>ReadImg()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>462</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>721</x>
+     <y>302</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>endBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>SelectDataClass</receiver>
+   <slot>endclicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>586</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>783</x>
+     <y>332</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lowUP</sender>
+   <signal>clicked()</signal>
+   <receiver>SelectDataClass</receiver>
+   <slot>lowup_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>685</x>
+     <y>302</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>788</x>
+     <y>261</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lowDown</sender>
+   <signal>clicked()</signal>
+   <receiver>SelectDataClass</receiver>
+   <slot>lowdown_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>657</x>
+     <y>327</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>788</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>upUp</sender>
+   <signal>clicked()</signal>
+   <receiver>SelectDataClass</receiver>
+   <slot>upup_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>749</x>
+     <y>306</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>788</x>
+     <y>294</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>upDown</sender>
+   <signal>clicked()</signal>
+   <receiver>SelectDataClass</receiver>
+   <slot>updown_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>758</x>
+     <y>321</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>788</x>
+     <y>349</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn_ChooseData()</slot>
+  <slot>ReadImg()</slot>
+  <slot>endclicked()</slot>
+  <slot>lowup_clicked()</slot>
+  <slot>lowdown_clicked()</slot>
+  <slot>upup_clicked()</slot>
+  <slot>updown_clicked()</slot>
+ </slots>
+</ui>
