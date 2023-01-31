@@ -42,3 +42,8 @@ code:https://github.com/fpeanut/tof-dynamic-gesture-recognition/tree/main/2_Mode
 `模型部署`<br>
 CPP_ONNX:https://github.com/fpeanut/tof-dynamic-gesture-recognition/tree/main/3_ModelDeployment/cpp_onnx<br>
 CPP_TFlite:https://github.com/fpeanut/tof-dynamic-gesture-recognition/tree/main/3_ModelDeployment/cpp_tflite<br>
+ `模型检测方案`<br>
+ step1:确定训练模型输入的尺寸（例如18帧的序列尺寸为18）<br>
+ step2:定义相同尺寸的容器vector。<br>
+ step3：初始化时，vector全部赋值0，当有新的帧数值进来时，容器进栈，并且选择onnx/tflite进行推理。<br>
+ 优点：能够实时的获得识别结果，避免延迟现象的存在。
