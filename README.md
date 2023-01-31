@@ -41,4 +41,4 @@ code:https://github.com/fpeanut/tof-dynamic-gesture-recognition/tree/main/2_Mode
 code:https://github.com/fpeanut/tof-dynamic-gesture-recognition/tree/main/2_ModelTrain/2_model%20training/mediapipe-lstm<br>
 `模型部署`<br>
 CPP_ONNX:https://github.com/fpeanut/tof-dynamic-gesture-recognition/tree/main/3_ModelDeployment/cpp_onnx<br>
-CPP_TFlite:
+CPP_TFlite:https://github.com/fpeanut/tof-dynamic-gesture-recognition/tree/main/3_ModelDeployment/cpp_tflite<br>
